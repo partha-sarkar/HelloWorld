@@ -1,0 +1,57 @@
+# Gradle
+.gradle/
+build/
+*/build/
+*/build.gradle.kts.d/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.so
+*.dex
+*.class
+*.jar
+*.log
+*.nc
+*.jks
+*.keystore
+*.orig
+*.pro
+
+# Signed artifacts
+signing.properties
+
+# Test reports
+*/test-results/
+*/reports/
+
+# Cache
+.caches/
+*.cache
+
+# Kotlin
+*.klib
+*.klib.js
+*.kexe
+
+# Compose
+composeBuild/
